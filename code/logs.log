@@ -407,3 +407,197 @@
 2022-12-30 01:13:17,188:INFO:Rendering Visual
 2022-12-30 01:13:17,339:INFO:Visual Rendered Successfully
 2022-12-30 01:13:17,339:INFO:plot_model() succesfully completed......................................
+2022-12-30 15:52:13,877:INFO:PyCaret NLP Module
+2022-12-30 15:52:13,878:INFO:version 2.3.10
+2022-12-30 15:52:13,878:INFO:Initializing setup()
+2022-12-30 15:52:13,879:INFO:USI: a59b
+2022-12-30 15:52:13,879:INFO:setup(data=(4609, 2), target=description, custom_stopwords=['player', 'card', 'play', 'game'], html=True, session_id=42, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2022-12-30 15:52:13,879:INFO:Checking environment
+2022-12-30 15:52:13,879:INFO:python_version: 3.8.0
+2022-12-30 15:52:13,879:INFO:python_build: ('tags/v3.8.0:fa919fd', 'Oct 14 2019 19:37:50')
+2022-12-30 15:52:13,880:INFO:machine: AMD64
+2022-12-30 15:52:13,880:INFO:platform: Windows-10-10.0.19041-SP0
+2022-12-30 15:52:13,893:INFO:Memory: svmem(total=8424902656, available=487497728, percent=94.2, used=7937404928, free=487497728)
+2022-12-30 15:52:13,893:INFO:Physical Core: 6
+2022-12-30 15:52:13,894:INFO:Logical Core: 12
+2022-12-30 15:52:13,894:INFO:Checking libraries
+2022-12-30 15:52:13,894:INFO:pd==1.5.2
+2022-12-30 15:52:13,894:INFO:numpy==1.20.3
+2022-12-30 15:52:14,683:INFO:gensim==3.8.3
+2022-12-30 15:52:17,381:INFO:spacy==2.3.9
+2022-12-30 15:52:18,373:INFO:nltk==3.8
+2022-12-30 15:52:18,427:INFO:textblob==0.17.1
+2022-12-30 15:52:18,486:INFO:pyLDAvis==3.3.1
+2022-12-30 15:52:18,592:INFO:wordcloud==1.8.2.2
+2022-12-30 15:52:18,592:INFO:mlflow==2.1.1
+2022-12-30 15:52:18,592:INFO:Checking Exceptions
+2022-12-30 15:52:19,712:INFO:Preloading libraries
+2022-12-30 15:52:19,712:INFO:Preparing display monitor
+2022-12-30 15:52:19,739:INFO:Importing libraries
+2022-12-30 15:52:19,739:INFO:Declaring global variables
+2022-12-30 15:52:19,740:INFO:Input provided : dataframe
+2022-12-30 15:52:19,740:INFO:session_id set to : 42
+2022-12-30 15:52:19,740:INFO:Copying training dataset
+2022-12-30 15:52:19,741:INFO:Importing stopwords from nltk
+2022-12-30 15:52:20,252:INFO:Removing numeric characters from the text
+2022-12-30 15:52:20,679:INFO:Removing special characters from the text
+2022-12-30 15:52:23,548:INFO:Tokenizing Words
+2022-12-30 15:52:27,735:INFO:Removing stopwords
+2022-12-30 15:52:30,373:INFO:Extracting Bigrams
+2022-12-30 15:52:41,603:INFO:Extracting Trigrams
+2022-12-30 15:53:02,896:INFO:Lemmatizing tokens
+2022-12-30 15:53:54,838:INFO:Removing stopwords after lemmatizing
+2022-12-30 15:53:56,543:INFO:Creating corpus and dictionary
+2022-12-30 15:53:57,601:INFO:Compiling processed text
+2022-12-30 15:53:57,620:INFO:Compiling information grid
+2022-12-30 15:53:57,629:INFO:setup() succesfully completed......................................
+2022-12-30 15:53:57,744:INFO:Initializing create_model()
+2022-12-30 15:53:57,744:INFO:create_model(model=lda, multi_core=True, num_topics=6, verbose=True, system=True)
+2022-12-30 15:53:57,744:INFO:Checking exceptions
+2022-12-30 15:53:57,745:INFO:Preloading libraries
+2022-12-30 15:53:57,745:INFO:Preparing display monitor
+2022-12-30 15:53:57,761:INFO:Defining topic model
+2022-12-30 15:53:57,762:INFO:Model: Latent Dirichlet Allocation
+2022-12-30 15:53:57,762:INFO:Defining num_topics parameter
+2022-12-30 15:53:57,762:INFO:num_topics set to: 6
+2022-12-30 15:53:57,769:INFO:LDA multi_core enabled
+2022-12-30 15:53:57,769:INFO:LdaMulticore imported successfully
+2022-12-30 15:54:21,402:INFO:LdaMulticore trained successfully
+2022-12-30 15:54:21,406:INFO:LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100)
+2022-12-30 15:54:21,407:INFO:create_model() succesfully completed......................................
+2022-12-30 15:54:21,409:INFO:Initializing assign_model()
+2022-12-30 15:54:21,409:INFO:assign_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), verbose=True)
+2022-12-30 15:54:21,409:INFO:Determining model type
+2022-12-30 15:54:21,410:INFO:model type: lda
+2022-12-30 15:54:21,410:INFO:Checking exceptions
+2022-12-30 15:54:21,410:INFO:Preloading libraries
+2022-12-30 15:54:21,410:INFO:Preparing display monitor
+2022-12-30 15:54:29,599:INFO:(4609, 10)
+2022-12-30 15:54:29,599:INFO:assign_model() succesfully completed......................................
+2022-12-30 15:54:30,284:INFO:Initializing plot_model()
+2022-12-30 15:54:30,284:INFO:plot_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), plot=wordcloud, topic_num=Topic 0, save=False, system=True)
+2022-12-30 15:54:30,284:INFO:Checking exceptions
+2022-12-30 15:54:30,284:INFO:Importing libraries
+2022-12-30 15:54:30,989:INFO:save_param set to False
+2022-12-30 15:54:30,989:INFO:plot type: wordcloud
+2022-12-30 15:54:30,989:INFO:SubProcess assign_model() called ==================================
+2022-12-30 15:54:30,990:INFO:Initializing assign_model()
+2022-12-30 15:54:30,990:INFO:assign_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), verbose=False)
+2022-12-30 15:54:30,990:INFO:Determining model type
+2022-12-30 15:54:30,990:INFO:model type: lda
+2022-12-30 15:54:30,990:INFO:Checking exceptions
+2022-12-30 15:54:30,991:INFO:Preloading libraries
+2022-12-30 15:54:30,991:INFO:Preparing display monitor
+2022-12-30 15:54:38,209:INFO:(4609, 10)
+2022-12-30 15:54:38,210:INFO:assign_model() succesfully completed......................................
+2022-12-30 15:54:38,214:INFO:SubProcess assign_model() end ==================================
+2022-12-30 15:54:38,225:INFO:Fitting WordCloud()
+2022-12-30 15:54:41,102:INFO:Rendering Visual
+2022-12-30 15:54:41,273:INFO:Visual Rendered Successfully
+2022-12-30 15:54:41,273:INFO:plot_model() succesfully completed......................................
+2022-12-30 15:54:41,275:INFO:Initializing plot_model()
+2022-12-30 15:54:41,275:INFO:plot_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), plot=wordcloud, topic_num=Topic 1, save=False, system=True)
+2022-12-30 15:54:41,275:INFO:Checking exceptions
+2022-12-30 15:54:41,275:INFO:Importing libraries
+2022-12-30 15:54:41,295:INFO:save_param set to False
+2022-12-30 15:54:41,295:INFO:plot type: wordcloud
+2022-12-30 15:54:41,295:INFO:SubProcess assign_model() called ==================================
+2022-12-30 15:54:41,295:INFO:Initializing assign_model()
+2022-12-30 15:54:41,295:INFO:assign_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), verbose=False)
+2022-12-30 15:54:41,295:INFO:Determining model type
+2022-12-30 15:54:41,295:INFO:model type: lda
+2022-12-30 15:54:41,295:INFO:Checking exceptions
+2022-12-30 15:54:41,295:INFO:Preloading libraries
+2022-12-30 15:54:41,295:INFO:Preparing display monitor
+2022-12-30 15:54:47,827:INFO:(4609, 10)
+2022-12-30 15:54:47,827:INFO:assign_model() succesfully completed......................................
+2022-12-30 15:54:47,830:INFO:SubProcess assign_model() end ==================================
+2022-12-30 15:54:47,832:INFO:Fitting WordCloud()
+2022-12-30 15:54:49,800:INFO:Rendering Visual
+2022-12-30 15:54:49,944:INFO:Visual Rendered Successfully
+2022-12-30 15:54:49,944:INFO:plot_model() succesfully completed......................................
+2022-12-30 15:54:49,946:INFO:Initializing plot_model()
+2022-12-30 15:54:49,946:INFO:plot_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), plot=wordcloud, topic_num=Topic 2, save=False, system=True)
+2022-12-30 15:54:49,946:INFO:Checking exceptions
+2022-12-30 15:54:49,946:INFO:Importing libraries
+2022-12-30 15:54:49,957:INFO:save_param set to False
+2022-12-30 15:54:49,957:INFO:plot type: wordcloud
+2022-12-30 15:54:49,957:INFO:SubProcess assign_model() called ==================================
+2022-12-30 15:54:49,958:INFO:Initializing assign_model()
+2022-12-30 15:54:49,958:INFO:assign_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), verbose=False)
+2022-12-30 15:54:49,958:INFO:Determining model type
+2022-12-30 15:54:49,958:INFO:model type: lda
+2022-12-30 15:54:49,958:INFO:Checking exceptions
+2022-12-30 15:54:49,958:INFO:Preloading libraries
+2022-12-30 15:54:49,958:INFO:Preparing display monitor
+2022-12-30 15:54:55,645:INFO:(4609, 10)
+2022-12-30 15:54:55,645:INFO:assign_model() succesfully completed......................................
+2022-12-30 15:54:55,651:INFO:SubProcess assign_model() end ==================================
+2022-12-30 15:54:55,654:INFO:Fitting WordCloud()
+2022-12-30 15:54:57,672:INFO:Rendering Visual
+2022-12-30 15:54:57,831:INFO:Visual Rendered Successfully
+2022-12-30 15:54:57,831:INFO:plot_model() succesfully completed......................................
+2022-12-30 15:54:57,833:INFO:Initializing plot_model()
+2022-12-30 15:54:57,833:INFO:plot_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), plot=wordcloud, topic_num=Topic 3, save=False, system=True)
+2022-12-30 15:54:57,834:INFO:Checking exceptions
+2022-12-30 15:54:57,834:INFO:Importing libraries
+2022-12-30 15:54:57,844:INFO:save_param set to False
+2022-12-30 15:54:57,844:INFO:plot type: wordcloud
+2022-12-30 15:54:57,844:INFO:SubProcess assign_model() called ==================================
+2022-12-30 15:54:57,845:INFO:Initializing assign_model()
+2022-12-30 15:54:57,845:INFO:assign_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), verbose=False)
+2022-12-30 15:54:57,845:INFO:Determining model type
+2022-12-30 15:54:57,845:INFO:model type: lda
+2022-12-30 15:54:57,845:INFO:Checking exceptions
+2022-12-30 15:54:57,845:INFO:Preloading libraries
+2022-12-30 15:54:57,845:INFO:Preparing display monitor
+2022-12-30 15:55:03,048:INFO:(4609, 10)
+2022-12-30 15:55:03,048:INFO:assign_model() succesfully completed......................................
+2022-12-30 15:55:03,054:INFO:SubProcess assign_model() end ==================================
+2022-12-30 15:55:03,057:INFO:Fitting WordCloud()
+2022-12-30 15:55:05,207:INFO:Rendering Visual
+2022-12-30 15:55:05,382:INFO:Visual Rendered Successfully
+2022-12-30 15:55:05,382:INFO:plot_model() succesfully completed......................................
+2022-12-30 15:55:05,385:INFO:Initializing plot_model()
+2022-12-30 15:55:05,385:INFO:plot_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), plot=wordcloud, topic_num=Topic 4, save=False, system=True)
+2022-12-30 15:55:05,385:INFO:Checking exceptions
+2022-12-30 15:55:05,385:INFO:Importing libraries
+2022-12-30 15:55:05,402:INFO:save_param set to False
+2022-12-30 15:55:05,402:INFO:plot type: wordcloud
+2022-12-30 15:55:05,402:INFO:SubProcess assign_model() called ==================================
+2022-12-30 15:55:05,403:INFO:Initializing assign_model()
+2022-12-30 15:55:05,403:INFO:assign_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), verbose=False)
+2022-12-30 15:55:05,403:INFO:Determining model type
+2022-12-30 15:55:05,403:INFO:model type: lda
+2022-12-30 15:55:05,403:INFO:Checking exceptions
+2022-12-30 15:55:05,403:INFO:Preloading libraries
+2022-12-30 15:55:05,403:INFO:Preparing display monitor
+2022-12-30 15:55:10,760:INFO:(4609, 10)
+2022-12-30 15:55:10,760:INFO:assign_model() succesfully completed......................................
+2022-12-30 15:55:10,762:INFO:SubProcess assign_model() end ==================================
+2022-12-30 15:55:10,764:INFO:Fitting WordCloud()
+2022-12-30 15:55:13,419:INFO:Rendering Visual
+2022-12-30 15:55:13,611:INFO:Visual Rendered Successfully
+2022-12-30 15:55:13,612:INFO:plot_model() succesfully completed......................................
+2022-12-30 15:55:13,615:INFO:Initializing plot_model()
+2022-12-30 15:55:13,615:INFO:plot_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), plot=wordcloud, topic_num=Topic 5, save=False, system=True)
+2022-12-30 15:55:13,615:INFO:Checking exceptions
+2022-12-30 15:55:13,615:INFO:Importing libraries
+2022-12-30 15:55:13,633:INFO:save_param set to False
+2022-12-30 15:55:13,633:INFO:plot type: wordcloud
+2022-12-30 15:55:13,633:INFO:SubProcess assign_model() called ==================================
+2022-12-30 15:55:13,634:INFO:Initializing assign_model()
+2022-12-30 15:55:13,634:INFO:assign_model(model=LdaModel(num_terms=17167, num_topics=6, decay=0.5, chunksize=100), verbose=False)
+2022-12-30 15:55:13,634:INFO:Determining model type
+2022-12-30 15:55:13,634:INFO:model type: lda
+2022-12-30 15:55:13,634:INFO:Checking exceptions
+2022-12-30 15:55:13,634:INFO:Preloading libraries
+2022-12-30 15:55:13,634:INFO:Preparing display monitor
+2022-12-30 15:55:19,360:INFO:(4609, 10)
+2022-12-30 15:55:19,360:INFO:assign_model() succesfully completed......................................
+2022-12-30 15:55:19,362:INFO:SubProcess assign_model() end ==================================
+2022-12-30 15:55:19,364:INFO:Fitting WordCloud()
+2022-12-30 15:55:21,767:INFO:Rendering Visual
+2022-12-30 15:55:21,929:INFO:Visual Rendered Successfully
+2022-12-30 15:55:21,929:INFO:plot_model() succesfully completed......................................
