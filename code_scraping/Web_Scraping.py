@@ -1,13 +1,13 @@
 from bs4 import BeautifulSoup
 from selenium import webdriver
 # import requests
-
 import time
 
 url = 'https://boardgamegeek.com/hotness'
 webdriver = webdriver.Chrome()
 webdriver.get(url)
 soup = BeautifulSoup(webdriver.page_source, 'html.parser')
+
 print(soup.find('ol').prettify())
 
 # res = requests.get(url)
@@ -16,12 +16,10 @@ print(soup.find('ol').prettify())
 
 
 # print(soup.find('li', attrs = {'class':'numbered-game-list__item tw-flex tw-items-center'}))
-#mainbody > div > div > gg-hotness-page > div > ol > li:nth-child(1)
 # ol = soup.find_all('ol')
 # print(ol)
 
-# # print(ol.find('li'))
 # for i in ol:
 #     print(i.find_all('li'))
-# # print(html.prettify())
+# print(html.prettify())
 
