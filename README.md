@@ -6,7 +6,7 @@ Boardgame recommender system that recommends boardgames to users based on their 
 1. [Introduction](#Introduction)
 2. [Skills Presented](#Skills Presented)
 3. [Data](#Data)
-4. 
+4. [Analysis](#Analysis)
 5.
 6.
 7.
