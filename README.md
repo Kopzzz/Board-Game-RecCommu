@@ -4,7 +4,7 @@ Boardgame recommender system that recommends boardgames to users based on their 
 
 ## Table of Contents
 1. [Introduction](#Introduction)
-2. [Skills Presented](#Skills Presented)
+2. [Skills Presented](#skills-presented)
 3. [Data](#Data)
 4. [Analysis](#Analysis)
 5.
