@@ -3,13 +3,13 @@ Boardgame recommender system that recommends boardgames to users based on their 
 (This notebook is part of the senior project)
 
 ## Table of Contents
-1. [Introduction](#Introduction)
+1. [Introduction](#introduction)
 2. [Skills Presented](#skills-presented)
-3. [Data](#Data)
-4. [Analysis](#Analysis)
-5.
-6.
-7.
+3. [Data](#data)
+4. [Analysis](#analysis)
+5. [Model Results](#model-results)
+6. [Deployment](#deployment)
+7. [Conclusions](#conclusions)
 
 ## Introduction
 
